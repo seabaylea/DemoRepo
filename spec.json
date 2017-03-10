@@ -1,0 +1,25 @@
+{
+  "appType": "crud",
+  "appName": "demos",
+  "bluemix": true,
+  "capabilities": {
+    "metrics": true,
+    "autoscale": "demosScalingService"
+  },
+  "services": {
+    "cloudant": [
+      {
+        "type": "cloudant",
+        "host": "localhost",
+        "port": 5984,
+        "secured": false,
+        "name": "cloudantCrudService"
+      }
+    ]
+  },
+  "config": {
+    "logger": "helium",
+    "port": 8090
+  },
+  "crudservice": "cloudantCrudService"
+}

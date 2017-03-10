@@ -1,0 +1,19 @@
+{
+  "VCAP_SERVICES": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "cloudantCrudService",
+        "label": "cloudantNoSQLDB",
+        "tags": [],
+        "plan": "Lite",
+        "credentials": {
+          "host": "localhost",
+          "url": "",
+          "username": "",
+          "password": "",
+          "port": 5984
+        }
+      }
+    ]
+  }
+}
